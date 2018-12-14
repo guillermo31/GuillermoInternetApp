@@ -76,7 +76,7 @@ class InternetDetailViewController: UIViewController
         }
     }
     
-
+    
     /*
     // MARK: - Navigation
 

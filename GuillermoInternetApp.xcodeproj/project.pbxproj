@@ -8,24 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		F9866A0B21C16F390018710A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9866A0A21C16F390018710A /* AppDelegate.swift */; };
-		F9866A0D21C16F390018710A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9866A0C21C16F390018710A /* ViewController.swift */; };
 		F9866A1021C16F390018710A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9866A0E21C16F390018710A /* Main.storyboard */; };
 		F9866A1221C16F470018710A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9866A1121C16F470018710A /* Assets.xcassets */; };
 		F9866A1521C16F470018710A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9866A1321C16F470018710A /* LaunchScreen.storyboard */; };
 		F9866A2021C16FCD0018710A /* Internet Screen.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F9866A1F21C16FCC0018710A /* Internet Screen.pdf */; };
 		F9DACCA621C4059700452BD8 /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DACCA521C4059700452BD8 /* InternetDetailViewController.swift */; };
+		F9DACCA821C40C0400452BD8 /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DACCA721C40C0400452BD8 /* InternetMasterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F9866A0721C16F390018710A /* GuillermoInternetApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuillermoInternetApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9866A0A21C16F390018710A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F9866A0C21C16F390018710A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F9866A0F21C16F390018710A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F9866A1121C16F470018710A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9866A1421C16F470018710A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9866A1621C16F470018710A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9866A1F21C16FCC0018710A /* Internet Screen.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Internet Screen.pdf"; path = "../../../../../Desktop/Internet Screen.pdf"; sourceTree = "<group>"; };
 		F9DACCA521C4059700452BD8 /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
+		F9DACCA721C40C0400452BD8 /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +79,8 @@
 		F9866A1D21C16F720018710A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				F9866A0C21C16F390018710A /* ViewController.swift */,
 				F9DACCA521C4059700452BD8 /* InternetDetailViewController.swift */,
+				F9DACCA721C40C0400452BD8 /* InternetMasterViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9866A0D21C16F390018710A /* ViewController.swift in Sources */,
+				F9DACCA821C40C0400452BD8 /* InternetMasterViewController.swift in Sources */,
 				F9DACCA621C4059700452BD8 /* InternetDetailViewController.swift in Sources */,
 				F9866A0B21C16F390018710A /* AppDelegate.swift in Sources */,
 			);
