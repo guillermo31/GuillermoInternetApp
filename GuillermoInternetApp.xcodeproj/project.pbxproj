@@ -13,6 +13,7 @@
 		F9866A1221C16F470018710A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9866A1121C16F470018710A /* Assets.xcassets */; };
 		F9866A1521C16F470018710A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9866A1321C16F470018710A /* LaunchScreen.storyboard */; };
 		F9866A2021C16FCD0018710A /* Internet Screen.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F9866A1F21C16FCC0018710A /* Internet Screen.pdf */; };
+		F9DACCA621C4059700452BD8 /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DACCA521C4059700452BD8 /* InternetDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F9866A1421C16F470018710A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9866A1621C16F470018710A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9866A1F21C16FCC0018710A /* Internet Screen.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Internet Screen.pdf"; path = "../../../../../Desktop/Internet Screen.pdf"; sourceTree = "<group>"; };
+		F9DACCA521C4059700452BD8 /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				F9866A0C21C16F390018710A /* ViewController.swift */,
+				F9DACCA521C4059700452BD8 /* InternetDetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9866A0D21C16F390018710A /* ViewController.swift in Sources */,
+				F9DACCA621C4059700452BD8 /* InternetDetailViewController.swift in Sources */,
 				F9866A0B21C16F390018710A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
