@@ -27,6 +27,7 @@ class InternetMasterViewController: UITableViewController
         ]
         
         addresses = [
+            "cnn.com",
             "www.google.com",
             "https://apcentral.collegeboard.org/courses/ap-computer-science-principles",
             "http://www.canyonsdistrict.org/",
@@ -42,7 +43,7 @@ class InternetMasterViewController: UITableViewController
         }
     }
 
-    override func viewDidLoad()
+   public override func viewDidLoad()
     {
         super.viewDidLoad()
         
